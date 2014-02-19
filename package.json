@@ -1,6 +1,6 @@
 {
   "name": "Frontend-Workflow",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Structured, modular and test-driven front-end development and build workflow with Grunt, including compiling AMD based modules using RequireJS, watching/compiling Sass, Susy for responsive, watching/linting CSS/JS, optimizing images, generating icons, generating YUIdoc documentation, and running unit tests.",
   "main": "Gruntfile.js",
   "author": {
@@ -21,6 +21,7 @@
     "compass",
     "grunticon",
     "csslint",
+    "htmlhint",    
     "jshint",
     "watch",
     "livereload",
@@ -31,11 +32,15 @@
   "readmeFilename": "README.md",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "compass": "~0.1.0",
-    "bower": "~1.2.8",
-    "csslint": "~0.10.0",
-    "grunt-grunticon": "~1.0.0",
-    "grunt-svgmin": "~0.3.1"
+    "grunt":                    "~0.4.2",
+    "compass":                  "~0.1.0",
+    "bower":                    "~1.2.8",
+    "csslint":                  "~0.10.0",
+    "grunt-contrib-uglify":     "*",
+    "grunt-contrib-watch":      "*",
+    "grunt-cssc":               "*",   
+    "grunt-grunticon":          "~1.0.0",
+    "grunt-svgmin":             "~0.3.1",
+    "matchdep":                     "*"
   }
 }
