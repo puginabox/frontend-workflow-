@@ -1,0 +1,51 @@
+
+{
+	"name": "Grunt Frontend Workflow",
+	"version" : "0.3",
+	"description": "Structured, modular and test-driven front-end development and build workflow with Grunt, using RequireJS, 
+					  Sass/Compass compilation, watching/linting CSS/JS code, optimizing images, generating icons, YUIdoc documentation, and running unit tests.", 
+
+	"author": {
+	"name" : "griffin byron",
+	"email" : "puginabox@gmail.com",
+	"url" : "http://griffinbyron.com/",
+	},
+
+	"repository": {
+	"type": "git",
+	"url": "git://github.com/puginabox/frontend.git"
+	},
+
+	"main": "Gruntfile.js",  
+	"readmeFilename": "README.md",
+
+	"dependencies" : {
+	"grunt": "~0.4.1",
+	"grunt-contrib-watch": "~0.5.3",
+	"grunt-contrib-compass": "~0.5.0",
+	"grunt-contrib-uglify": "~0.2.2",
+	"matchdep": "~0.1.2"
+	}	
+	{
+	  "keywords": [
+	    "grunt",
+	    "gruntjs",
+	    "workflow",
+	    "boilerplate",
+	    "sass",
+	    "scss",	    
+	    "compass",
+	    "grunticon",
+	    "csslint",
+	    "jshint",
+	    "karma",
+	    "watch",
+	    "livereload",
+	    "requirejs",
+	    "yuidoc",
+	    "imagemin",
+	    "grunticon",
+	    "SVG-optomization",
+	  ]
+	}
+}
